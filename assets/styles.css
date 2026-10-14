@@ -18,10 +18,27 @@ Beranda{
     flex-direction: column;
 }
 
-Keahlian{
-    
-}
+
 
 header,main,footer{
     padding: 10px;
+}
+
+
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: dodgerblue;
+  padding: 5px;
+  gap: 5px;
+  width: fit-content;
+}
+.container div {
+  background-color: #f1f1f1;
+  color: #000;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  width: fit-content;
 }
